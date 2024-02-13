@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f2acac;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	color: #333;
+	background: pink;
+}
+
+.container1 {
+	text-align: center;
+}
+
+#back {
+	position: absolute;
+	bottom: 3%;
+	left: 2%;
+}
+
+#start {
+	position: absolute;
+	bottom: 3%;
+	left: 90.2%;
+}
+
+#start1 {
+	position: absolute;
+	bottom: 3%;
+	left: 77.2%;
+}
+
+.yes {
+	padding-top: 15%;
+	text-align: center;
+}
+
+.no {
+	padding-top: 15%;
+	text-align: center;
+}
+
+h2 {
+	font-size: 72px;
+	margin-bottom: 20px;
+}
+
+a {
+	font-size: 24px;
+	text-decoration: none;
+	padding: 5px 10px;
+	margin-top: 20px;
+	display: inline-block;
+	background-color: #ff4d4d;
+	/* Red background color */
+	color: white;
+	/* White text color */
+	padding: 15px 25px;
+	/* Padding inside the button */
+	border: none;
+	/* No borders */
+	cursor: pointer;
+	/* Change cursor to pointer */
+	border-radius: 10px;
+	/* Rounded corners */
+	transition: background-color 0.3s;
+	/* Smooth transition */
+}
+
+a:hover {
+	background-color: #ff1a1a;
+	/* Darker red on hover */
+}
+
+a:active {
+	background-color: #b30000;
+	/* Active/darker color */
+}
+
+.yes img {
+	height: 30px;
+	width: 30px;
+	animation: image 4s linear infinite;
+}
+
+.love img {
+	height: 330px;
+	width: 330px;
+	animation: image 4s linear infinite;
+}
+
+@keyframes image {
+	0% {
+		transform: scale(.5);
+	}
+
+	50% {
+		transform: scale(1.5);
+	}
+
+	100% {
+		transform: scale(.5);
+	}
+}
